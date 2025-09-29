@@ -16,3 +16,5 @@ pool.getConnection()
 .catch(err => {
     console.error('Error de conexión a la base de datos:', err);
 });
+
+export default pool;
